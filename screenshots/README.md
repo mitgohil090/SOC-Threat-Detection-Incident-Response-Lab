@@ -1,13 +1,18 @@
-# Wazuh Lab Screenshots
+# Wazuh Lab Evidence
 
-This folder contains visual evidence from the local SOC lab.
+This folder contains screenshots captured during controlled security monitoring exercises in my local Wazuh SIEM lab.
 
-## Evidence Categories
+## Detection 1: Single Authentication Failure
+Screenshots document the authentication failure event and its associated Wazuh alert details.
 
-- `01-authentication-failure.png` — single authentication failure alert
-- `02-repeated-authentication-failures.png` — repeated authentication failure events
-- `03-file-integrity-monitoring.png` — file-added alert
-- `04-privilege-activity.png` — successful sudo-to-root activity
-- `05-custom-rule.png` — custom rule configuration and validation, if captured
+## Detection 2: Repeated Authentication Failures
+Screenshots document repeated authentication failure events and the related Wazuh alert information.
 
-Only screenshots that have actually been captured should be uploaded. The custom rule's end-to-end detection remains unverified.
+## Detection 3: File Integrity Monitoring
+Screenshots show the File Integrity Monitoring exercise and the alert generated after a test file was added.
+
+## Detection 4: Privilege-Related Activity
+Screenshots document the successful sudo-to-root activity observed during testing.
+
+## Evidence Limitations
+These screenshots demonstrate controlled lab exercises, not confirmed real-world attacks. The custom suspicious-command rule is not included as a verified detection because its end-to-end alert remains unconfirmed.
