@@ -48,3 +48,20 @@ The aim is to develop practical skills in security monitoring, alert investigati
 ## Disclaimer
 
 This project is for educational and defensive security purposes. All tests are performed in a local lab environment.
+## Project Documentation
+
+- [Lab Architecture](architecture/README.md)
+- [Lab Setup and Tools](setup/README.md)
+- [Detection Exercises](detections/README.md)
+- [Lab Evidence Guide](evidence/README.md)
+- [Wazuh Screenshots](screenshots/README.md)
+- [Incident Response Workflow](incident-response/README.md)
+
+## Skills Demonstrated
+
+- Security event monitoring with Wazuh
+- Linux authentication-event investigation
+- File Integrity Monitoring (FIM)
+- Privilege-related event analysis
+- Basic detection-rule configuration and validation
+- Security documentation and evidence management
