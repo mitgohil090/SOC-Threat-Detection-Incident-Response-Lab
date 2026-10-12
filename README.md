@@ -44,7 +44,24 @@ The Ubuntu Wazuh agent became disconnected during testing. The first four exerci
 ## Project Goals
 
 The aim is to develop practical skills in security monitoring, alert investigation, detection engineering, and incident response relevant to entry-level SOC Analyst and Security Analyst roles.
+## Project Status and Next Steps
 
+### Completed
+- Wazuh single-node lab deployed using Docker Compose.
+- Four security monitoring exercises documented with supporting screenshots.
+- Custom suspicious-command rule configured and its configuration validated.
+
+### In Progress
+- Restoring the Ubuntu Wazuh agent connection.
+- Completing end-to-end validation of the custom suspicious-command rule.
+- Expanding detection and incident-response exercises.
+
+### Planned Improvements
+- Add a lab architecture diagram.
+- Improve detection investigation notes.
+- Explore incident-response integrations and automation in a controlled lab environment.
+
+The custom rule has not yet been confirmed to generate an end-to-end alert.
 ## Disclaimer
 
 This project is for educational and defensive security purposes. All tests are performed in a local lab environment.
