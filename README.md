@@ -56,6 +56,8 @@ This project is for educational and defensive security purposes. All tests are p
 - [Wazuh Screenshots](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/screenshots/README.md)
 - [Incident Response Workflow](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/incident-response/README.md)
 
+
+
 ## Skills Demonstrated
 
 - Security event monitoring with Wazuh
