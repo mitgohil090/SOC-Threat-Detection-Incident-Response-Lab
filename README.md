@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project documents a hands-on Security Operations Centre (SOC) lab built with Wazuh SIEM and an Ubuntu endpoint running in WSL2.
+This project documents a hands-on Security Operations Centre (SOC) lab built using Wazuh SIEM, Ubuntu Linux, Docker Compose, and Windows Subsystem for Linux 2 (WSL2).
 
-The lab focuses on monitoring security events, reviewing alerts, testing file integrity monitoring, and documenting detection and investigation workflows.
+The lab explores security event monitoring, authentication-log analysis, file integrity monitoring, and investigation of privilege-related activity in a controlled environment.
 
 ## Objectives
 
@@ -12,9 +12,8 @@ The lab focuses on monitoring security events, reviewing alerts, testing file in
 - Configure an Ubuntu endpoint for security monitoring.
 - Generate controlled authentication and privilege-related events.
 - Test File Integrity Monitoring (FIM).
-- Develop and document a custom detection rule.
-- Record findings, evidence, and recommended responses.
-- Map activities to MITRE ATT&CK where appropriate.
+- Review and investigate security alerts.
+- Document findings, evidence, and recommended responses.
 
 ## Tools and Technologies
 
@@ -31,48 +30,31 @@ The lab focuses on monitoring security events, reviewing alerts, testing file in
 |---|---|---|
 | 01 | Single authentication failure | Verified |
 | 02 | Repeated authentication failures | Verified |
-| 03 | File integrity monitoring | Verified |
+| 03 | File Integrity Monitoring | Verified |
 | 04 | Successful privilege-related activity | Verified |
-| 05 | Custom suspicious-command detection | Implemented; end-to-end testing incomplete |
 
-These exercises use controlled lab activity. They do not represent the detection of real-world attacks.
+These exercises use controlled lab activity and are intended for educational and defensive security purposes. They do not represent the detection of real-world attacks.
 
-## Current Limitations
+## Project Status
 
-The Ubuntu Wazuh agent became disconnected during testing. The first four exercises were observed and documented, while end-to-end validation of the fifth custom rule remains incomplete.
+The four documented exercises were observed and recorded in the local lab environment. Supporting screenshots and documentation are included in this repository.
 
 ## Project Goals
 
-The aim is to develop practical skills in security monitoring, alert investigation, detection engineering, and incident response relevant to entry-level SOC Analyst and Security Analyst roles.
-## Project Status and Next Steps
+The aim is to develop practical skills in security monitoring, alert investigation, Linux security, and incident-response documentation relevant to entry-level SOC Analyst and Security Analyst roles.
 
-### Completed
-- Wazuh single-node lab deployed using Docker Compose.
-- Four security monitoring exercises documented with supporting screenshots.
-- Custom suspicious-command rule configured and its configuration validated.
-
-### In Progress
-- Restoring the Ubuntu Wazuh agent connection.
-- Completing end-to-end validation of the custom suspicious-command rule.
-- Expanding detection and incident-response exercises.
-
-### Planned Improvements
-- Add a lab architecture diagram.
-- Improve detection investigation notes.
-- Explore incident-response integrations and automation in a controlled lab environment.
-
-The custom rule has not yet been confirmed to generate an end-to-end alert.
 ## Disclaimer
 
 This project is for educational and defensive security purposes. All tests are performed in a local lab environment.
+
 ## Project Documentation
 
-- [Lab Architecture](architecture/README.md)
-- [Lab Setup and Tools](setup/README.md)
-- [Detection Exercises](detections/README.md)
-- [Lab Evidence Guide](evidence/README.md)
-- [Wazuh Screenshots](screenshots/README.md)
-- [Incident Response Workflow](incident-response/README.md)
+- [Lab Architecture](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/architecture/README.md)
+- [Lab Setup and Tools](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/setup/README.md)
+- [Detection Exercises](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/detections/README.md)
+- [Lab Evidence Guide](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/evidence/README.md)
+- [Wazuh Screenshots](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/screenshots/README.md)
+- [Incident Response Workflow](https://github.com/mitgohil090/SOC-Threat-Detection-Incident-Response-Lab/blob/main/incident-response/README.md)
 
 ## Skills Demonstrated
 
@@ -80,5 +62,5 @@ This project is for educational and defensive security purposes. All tests are p
 - Linux authentication-event investigation
 - File Integrity Monitoring (FIM)
 - Privilege-related event analysis
-- Basic detection-rule configuration and validation
-- Security documentation and evidence management
+- Security alert review
+- Technical documentation and evidence management
