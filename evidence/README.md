@@ -8,7 +8,6 @@ This folder is intended to store screenshots and supporting evidence from the Wa
 - Repeated authentication failure events
 - File Integrity Monitoring alert for a newly created test file
 - Successful sudo-to-root activity
-- Custom detection rule configuration and validation
 
 ## Evidence Notes
 
