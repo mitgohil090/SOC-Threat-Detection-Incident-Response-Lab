@@ -22,7 +22,6 @@ Created a test file under `/etc` and confirmed that Wazuh generated a file-added
 
 Performed a controlled sudo-to-root action and reviewed the related security event.
 
-
 ## Learning Outcome
 
 These exercises provided practical experience with authentication monitoring, privilege-related events, file integrity monitoring, and basic detection-rule configuration.
