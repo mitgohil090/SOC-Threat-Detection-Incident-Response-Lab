@@ -22,10 +22,6 @@ Created a test file under `/etc` and confirmed that Wazuh generated a file-added
 
 Performed a controlled sudo-to-root action and reviewed the related security event.
 
-## Exercise 5: Custom Suspicious-Command Rule
-**Status:** Implemented; end-to-end testing incomplete
-
-Created a custom Wazuh rule and validated the rule configuration. The custom rule has not yet been verified end to end because the Wazuh agent became disconnected.
 
 ## Learning Outcome
 
